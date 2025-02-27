@@ -1,0 +1,135 @@
+body {
+    background: #222;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background: linear-gradient(135deg, #00faba, #5b548a);
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px 25px; 
+    text-align: center;
+}
+
+.search {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 20px; 
+    height: 40px; 
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 10px;
+    font-size: 16px; 
+    transition: box-shadow 0.3s;
+}
+
+.search input:focus {
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px; 
+    height: 60px; 
+    transition: background 0.3s;
+}
+
+.search button:hover {
+    background: #d8fffb;
+}
+
+.search button img {
+    width: 40px; 
+}
+
+.weather-icon {
+    width: 150px; 
+    margin-top: 10px;
+    margin-bottom: 5px; 
+}
+
+.weather h1 {
+    font-size: 36px; 
+    font-weight: 500;
+    margin: 5px 0; 
+}
+
+.weather h2 {
+    font-size: 20px; 
+    font-weight: 400;
+    margin-top: -5px; 
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px; 
+    margin-top: 10px; 
+}
+
+.details .col {
+    display: flex;
+    align-items: center;
+}
+
+.details img {
+    width: 25px; 
+    margin-right: 5px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px; 
+    margin-right: 5px; 
+}
+
+.humidity, .wind {
+    font-size: 20px; 
+    margin-top: -2px; 
+}
+
+
+.humidity {
+    margin-bottom: 5px; 
+}
+
+.wind {
+    margin-top: 0; 
+}
+.date-time {
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 10px;
+    text-align: center;
+}
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.day {
+    text-align: center;
+}
+.day h3 {
+    margin: 0;
+}
